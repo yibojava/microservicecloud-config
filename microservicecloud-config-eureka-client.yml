@@ -33,7 +33,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false 
     service-url: 
-      defaultZone: http://eureka9102.com:9102/eureka/
+      defaultZone: http://localhost:9102/eureka/
 
 ---
 server: 
@@ -66,4 +66,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false 
     service-url: 
-      defaultZone: http://eureka9102.com:9102/eureka/
+      defaultZone: http://localhost:9102/eureka/
