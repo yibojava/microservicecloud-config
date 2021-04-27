@@ -40,7 +40,7 @@ server:
   port: 9013
 
 spring:
-  profiles: dev
+  profiles: test
   application:
     name:microservicecloud-config-dept-client
   datasource:
