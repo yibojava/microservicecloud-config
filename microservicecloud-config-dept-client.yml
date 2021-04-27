@@ -4,7 +4,7 @@
     - dev
 ---
 server: 
-  port: 9011
+  port: 9013
 
 spring:
   profiles: dev
@@ -13,7 +13,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
-    url: jdbc:mysql://localhost:3306/cloudDB01              # 数据库名称
+    url: jdbc:mysql://localhost:3306/cloudDB02              # 数据库名称
     username: root
     password: root
     dbcp2:
@@ -36,9 +36,8 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 
 ---
----
 server: 
-  port: 9012
+  port: 9013
 
 spring:
   profiles: dev
